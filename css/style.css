@@ -1,0 +1,89 @@
+.sequenced-entered {
+  background-image: url('../images/correct.gif');
+}
+
+h1 {
+  font-family: 'Righteous';
+  text-align: center;
+  font-size: 60px;
+  margin-left: -20px;
+}
+
+section.blocked {
+  pointer-events: none;
+}
+
+button {
+  border: 10px solid #000;
+  cursor: pointer;
+  height: 300px;
+  margin: 0 -2px;
+  outline: none;
+  padding: 0;
+  width: 300px;
+}
+
+#green {
+  border-top-left-radius: 100%;
+  background: rgba(76, 175, 80, 0.7)
+}
+
+#red {
+  border-top-right-radius: 100%;
+  background: rgba(244, 67, 54, 0.7);
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+  background: rgba(255, 235, 59, 0.7);
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background: rgba(33, 150, 243, 0.7);
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 620px;
+}
+
+#red:hover,
+#red.lighton {
+  background: rgba(244, 67, 54, 1);
+}
+
+/*//button id="green", class="lighton"*/
+#green:hover,
+#green.lighton {
+  background: rgba(76, 175, 80, 1);
+}
+
+#yellow:hover,
+#yellow.lighton {
+  background: rgba(255, 235, 59, 1);
+}
+
+#blue:hover,
+#blue.lighton {
+  background: rgba(33, 150, 243, 1);
+}
+
+#counter {
+  background: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -113px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  width: 200px;
+}
